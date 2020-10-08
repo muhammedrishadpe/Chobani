@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Chobani Sans;
+    src: url("/static/fonts/ChobaniSans-Regular.eot?#iefix") format("embedded-opentype"), url("/static/fonts/ChobaniSans-Regular.woff2") format("woff2"), url("/static/fonts/ChobaniSans-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: Chobani Serif;
+    src: url("/static/fonts/ChobaniSerif-Regular.eot?#iefix") format("embedded-opentype"), url("/static/fonts/ChobaniSerif-Regular.woff2") format("woff2"), url("/static/fonts/ChobaniSerif-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  
+
+  .navbar{
+    width: 97% !important;
+      color: black;
+      transform: translateX(20px);
+      z-index: auto;
+      background-color: white;
+      position: sticky;
+    }
+
+ul li{
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+
+ul li a{
+    font-family:  Chobani Serif;
+    font-size: 13px;
+    color: black;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.nav-link img{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -15px;
+}
+
+.nav-link h1:hover{
+    color: black !important;
+}
+
+#searchbar
+{
+  position: relative;
+  padding-left: 80px;
+}
+
+#searchbar #sliding-panel-outer
+{
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 240px;
+  transition: width 0.4s ease;
+}
+
+#searchbar #sliding-panel-inner
+{
+  width: 240px;
+}
+
+#searchbar .search-label
+{
+  width: 30px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 30px;
+}
+
+#searchbar .search-label .fa-times,
+#searchbar.collapsed .search-label .fa-search
+{
+  display: inline-block;
+}
+#searchbar .search-label .fa-search,
+#searchbar.collapsed .search-label .fa-times
+{
+  display: none;
+}
+
+#searchbar.collapsed #sliding-panel-outer
+{
+  width: 0px;
+}
+
+#search-input{
+ height:5em;
+ border: none;
+}
+
+
+.display-1 img{
+       position: relative;
+       top: -50px;
+
+}
