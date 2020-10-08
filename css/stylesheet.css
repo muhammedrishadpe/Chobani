@@ -111,6 +111,6 @@ ul li a{
 
 .display-1 img{
        position: relative;
-       top: -50px;
-
+       top: -100px;
+       z-index: -4;
 }
