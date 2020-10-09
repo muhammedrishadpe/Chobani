@@ -7,6 +7,9 @@
  :root{
        --bg-color:#F4F3F0;
        --chobani-sans-: "Chobani Sans";
+       --chobani-serif: "Chobani Serif";
+       --dark-slate-gary:#204949;
+       --platinam:#ebe9e5;
  }
 
 
@@ -121,7 +124,7 @@ ul li a{
        position: relative;
        top: -100px;
        z-index: -4;
-       margin-bottom: -600px;
+       margin-bottom: -500px;
 }
 
 .intro{
@@ -152,25 +155,29 @@ ul li a{
   transform: translateY(-50px);
 }
 
-.display-2{
+.container-fluid{
   width: 100%;
   height: auto;
   overflow: hidden;
   background-color: var(--bg-color);
 }
 
-.container-fluid{
+.text{
   font-size: 13px;
   margin: 10px;
   padding: 10px;
+  color: var(--dark-slate-gary);
+  letter-spacing: 0.8px;
   text-align: center;
  position: relative;
  top: 0px;
- left: -40px;
+ left: 0px;
 }
 
 .intro-new-products{
-   margin-top: 140px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   color: var(--dark-slate-gary);
 }
 
 .intro-np-right{
@@ -193,4 +200,109 @@ ul li a{
 .intro-np-lf .img-fluid{
   position: relative;
   left: 180px;
+}
+
+.button-intro{
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  border-radius: 2px;
+  color: var(--dark-slate-gary);
+
+}
+
+/*section-two---*/
+
+.section-two{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: var(--dark-slate-gary);
+}
+
+.sec-lf{
+ text-align: center;
+ font-family: Chobani Serif ;
+ position: relative;
+ top: 90px;
+ left: 50px;
+}
+
+.sec-lf h2{
+ font-size: 43px;
+ font-weight: 200; 
+}
+
+.sec-lf p{
+ font-size: 14px;
+ line-height: 25px;
+}
+
+.sec-rgt .img-fluid{
+ position: relative;
+ left: 70px;
+}
+
+.button-sec-two{
+ width: 140px;
+ height: 50px;
+ font-size: 14px;
+ border: none;
+ background-color: white;
+ border-radius: 2px;
+ font-family: sans-serif;
+ color: var(--dark-slate-gary);
+ cursor: pointer;
+}
+
+/*---section-3--*/
+
+.section-three{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 95vw;
+  height: 125vh;
+  padding-top: 50px;
+  background-color: var(--platinam);
+}
+
+.img-l{
+  transform: translateX(85px);
+}
+
+.lv-p{
+  padding: 50px;
+  font-size: 16px;
+  color: royalblue;
+}
+
+.lv-c{
+  transform: translateY(-70px);
+}
+
+.lv-p-p{
+  padding-top: 30px;
+  font-family: var(--chobani-serif);
+}
+
+.loved-p{
+  position: relative;
+  top: 55px;
+  left: -10px;
+}
+
+.button-sec-three{
+  width: 120px;
+  height: 50px;
+  font-size: 13px;
+  border: none;
+  background-color: white;
+  border-radius: 2px;
+  font-family: sans-serif;
+  color: var(--dark-slate-gary);
+  cursor: pointer;
+  position: relative;
+  left: 550px; 
 }
