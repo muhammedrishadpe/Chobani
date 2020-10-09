@@ -3,15 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ :root{
+       --bg-color:#F4F3F0;
+       --chobani-sans-: "Chobani Sans";
+ }
+
+
+
 @font-face {
-    font-family: Chobani Sans;
+    font-family: "Chobani Sans";
     src: url("/static/fonts/ChobaniSans-Regular.eot?#iefix") format("embedded-opentype"), url("/static/fonts/ChobaniSans-Regular.woff2") format("woff2"), url("/static/fonts/ChobaniSans-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
   }
 
   @font-face {
-    font-family: Chobani Serif;
+    font-family: "Chobani Serif";
     src: url("/static/fonts/ChobaniSerif-Regular.eot?#iefix") format("embedded-opentype"), url("/static/fonts/ChobaniSerif-Regular.woff2") format("woff2"), url("/static/fonts/ChobaniSerif-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
@@ -22,7 +30,7 @@
   .navbar{
     width: 97% !important;
       color: black;
-      transform: translateX(20px);
+      transform: translateX(30px);
       z-index: auto;
       background-color: white;
       position: sticky;
@@ -113,4 +121,76 @@ ul li a{
        position: relative;
        top: -100px;
        z-index: -4;
+       margin-bottom: -600px;
+}
+
+.intro{
+  position: relative;
+  top:-30px;
+  margin-left: 60px;
+  color: white;
+  font-family: Chobani Serif;
+}
+
+.intro h1{
+  font-size: 60px;
+}
+
+.intro p{
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+.button{
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  border-radius: 2px;
+  transform: translateY(-50px);
+}
+
+.display-2{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.container-fluid{
+  font-size: 13px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+ position: relative;
+ top: 0px;
+ left: -40px;
+}
+
+.intro-new-products{
+   margin-top: 140px;
+}
+
+.intro-np-right{
+  text-align: center;
+  font-family: Chobani Serif ;
+  position: relative;
+  top: 50px;
+  left: -50px;
+}
+
+.intro-np-right h2{
+  font-size: 50px; 
+}
+
+.intro-np-right p{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.intro-np-lf .img-fluid{
+  position: relative;
+  left: 180px;
 }
