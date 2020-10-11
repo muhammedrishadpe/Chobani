@@ -66,7 +66,16 @@ ul li a{
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: -20px;
-  
+  border-radius: 1px;
+  box-shadow: 2px 1px 5px black;
+}
+
+.dropdown-menu a:hover{
+  color: red;
+}
+
+.list-group-item{
+  border: none;
 }
 
 #searchbar
@@ -137,6 +146,7 @@ ul li a{
   margin-left: 80px;
   color: #eae8e1;
   font-family: var(--chobani-sans-);
+  z-index: -1;
 }
 
 .intro h1{
